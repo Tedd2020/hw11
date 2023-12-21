@@ -1,0 +1,644 @@
+
+.header {
+  height: 559px;
+}
+.header-wraper {
+  max-width: 1220px;
+  width: 95%;
+  height: 65px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
+  
+}
+.get-consuting {
+  width: 184px;
+  height: 65px;
+  background-color: #6B77E5;
+  color: #FFFFFF;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation ul {
+  width: 601px;
+  height: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner {
+  background-image: url(../images/Banner.png);
+  max-width: 1920px;
+  width: 100%;
+  height: 458px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 36px;
+}
+.blur {
+  position: relative;
+}
+.IMG1{
+  position: relative;
+  top: -462px;
+  z-index: -1;
+}
+.ing{
+  position: relative;
+  left: -100px;
+  width: 706.116px;
+height: 471.163px;
+flex-shrink: 0;
+}
+.banner-text {
+  width: 565px;
+  position: absolute;
+  top: 142px;
+  left: 173px;
+  color: #FFFFFF;
+}
+.banner-text h5 {
+  font-size: 18px;
+  line-height: 26.31px;
+}
+.banner-text h3 {
+  font-size: 60px;
+  line-height: 66px;
+}
+.section {
+  padding-top: 180px;
+}
+.section-container{
+  max-width: 1220px;
+  width: 95%;
+  margin: 0 auto;
+}
+.top {
+  max-width: 1220px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.top-left,
+.top-right {
+  width: 585px;
+}
+.lets-talk {
+  width: 585px;
+}
+.lets-talk h6 {
+  font-size: 18px;
+  line-height: 21.78px;
+  color: #37393F;
+  margin-bottom: 16px;
+}
+.lets-talk h3 {
+  font-size: 40px;
+  line-height: 48.4px;
+  color: #37393F;
+  margin-bottom: 11px;
+}
+.lets-talk p{
+  font-size: 18px;
+  line-height: 26.31px;
+  color: #7D7D7D;
+}
+.contact-info {
+  width: 367px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  margin-top: 33px;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  
+}
+.contact p {
+  font-size: 16px;
+  line-height: 21.63px;
+  color:#7D7D7D ;
+}
+.icon {
+  width: 68px;
+  height: 68px;
+  background-color: #F4F4F4;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 19px;
+}
+.phone {
+  width: 281px;
+}
+.email {
+  width: 282px;
+}
+.map {
+  width: 367px;
+}
+.bottom {
+  max-width: 1220px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.tittle {
+  max-width: 431px;
+  width: 100%;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  column-gap: 16px;
+}
+.tittle h6 {
+  font-size: 18px;
+  line-height: 21.78px;
+  color: #37393F;
+}
+.tittle h3 {
+  font-size: 40px;
+  line-height: 48.4px;
+  color: #37393F;
+}
+.forms {
+  max-width: 1220px;
+  height: 408px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+}
+.input1,
+.input2 {
+  max-width: 1220px;
+  height: 65px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 35px;
+  margin-bottom: 28px;
+}
+.name,
+.phone {
+  width: 591px;
+
+}
+.email,
+.subject {
+  width: 594px;
+}
+.input-element {
+  width: 591px;
+  height: 65px;
+  background-color: #F8F8F8;
+  border: 1px solid #DDDDDD;
+  font-size: 18px;
+  color: #37393F;
+}
+.input-element:focus {
+  outline: none;
+}
+.submit {
+  width: 184px;
+  height: 65px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.btn-submit {
+  width: 184px;
+  height: 65px;
+  background-color: #6B77E5;
+  border: none;
+  color: #FFFFFF;
+
+}
+.message {
+  max-width: 1220px;
+  width: 100%;
+  height: 222px;
+  font-size: 18px;
+  color: #37393F;
+  resize: none;
+  outline: none;
+  border: 1px solid #DDDDDD;
+}
+
+
+
+
+
+.Background11{
+  width: 100%; 
+  height: 100%; 
+  background: #37393F
+}
+.Header11{
+  margin-top: 60px;
+  margin-bottom: 100px;
+  margin-left: 200px;
+  width: 100%; 
+  height: 100%; 
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 185px; 
+  display: inline-flex
+}
+.Logo11{
+  width: 200px; 
+  height: 38px; 
+  position: relative
+}
+.only-exists{
+  margin-top: 200px;
+}
+
+.Contact11{
+  height: 68px; 
+  justify-content: flex-end; 
+  align-items: center; 
+  gap: 60px; 
+  display: flex
+}
+.Call{
+  height: 68px; 
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 10px; 
+  display: flex
+}
+.Icon{
+  width: 68px; 
+  height: 68px; 
+  position: relative
+}
+.Content22{
+  width: 148px; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 3px; 
+  display: inline-flex
+}
+.CallUs{
+  color: white; 
+  font-size: 20px; 
+  font-family: Poppins; 
+  font-weight: 600; 
+  word-wrap: break-word
+}
+.AAAA{
+  color: white; 
+  font-size: 18px; 
+  font-family: Inter; 
+  font-weight: 400; 
+  word-wrap: break-word
+}
+.Content33{
+  width: 163px; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 3px; 
+  display: inline-flex
+}
+.Mail{
+  height: 68px; 
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 11px; 
+  display: flex
+}
+.Content44{
+  width: 168px; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 3px; 
+  display: inline-flex
+}
+
+.Details{
+  margin-bottom: 200px;
+  margin-left: 200px;
+  width: 100%; 
+  height: 100%; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 82px; 
+  display: inline-flex
+}
+.Pages{
+  height: 243px; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 100px; 
+  display: flex
+}
+.QuickLink{
+  width: 121px; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 13px; 
+  display: inline-flex
+}
+.HomeAboutUsBlogServicesContact{
+  width: 79px
+}
+.spanny{
+  color: white; 
+  font-size: 18px; 
+  font-family: Inter; 
+  font-weight: 400; 
+  line-height: 39.63px; 
+  word-wrap: break-word
+}
+.spanny2{
+  color: #40DDB6; 
+  font-size: 18px; 
+  font-family: Inter; 
+  font-weight: 400; 
+  line-height: 39.63px; 
+  word-wrap: break-word
+
+}
+.spanny3{
+  color: white; 
+  font-size: 18px; 
+  font-family: Inter; 
+  font-weight: 400; 
+  line-height: 39.63px; 
+  word-wrap: break-word
+}
+.Servives{
+  width: 198px; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start;
+  gap: 13px; 
+  display: inline-flex
+}
+.OurServices{
+  color: #40DDB6; 
+  font-size: 20px; 
+  font-family: Poppins; 
+  font-weight: 600; 
+  word-wrap: break-word
+}
+.FinancialConsulting{
+  width: 198px; 
+  color: white; 
+  font-size: 18px; 
+  font-family: Inter; 
+  font-weight: 400; 
+  line-height: 39.63px; 
+  word-wrap: break-word
+}
+.Uitility{
+  width: 140.01px; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 13px; 
+  display: inline-flex
+}
+.UitilityPage{
+  color: #40DDB6; 
+  font-size: 20px; 
+  font-family: Poppins; 
+  font-weight: 600; 
+  word-wrap: break-word
+}
+.StyleGuide{
+  width: 105px; 
+  color: white; 
+  font-size: 18px; 
+  font-family: Inter; 
+  font-weight: 400; 
+  line-height: 39.63px;
+  word-wrap: break-word
+}
+.Subscribe33{
+  width: 479px; 
+  padding-left: 36px; 
+  padding-right: 36px; 
+  padding-top: 42px; 
+  padding-bottom: 42px; 
+  background: #474950; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 10px; 
+  display: inline-flex
+}
+.Content55{
+  height: 151px; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 23px; 
+  display: flex
+}
+.Title{
+  height: 63px; 
+  flex-direction: column; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 6px; 
+  display: flex
+}
+.Subscribe2{
+  color: white; 
+  font-size: 20px; 
+  font-family: Poppins; 
+  font-weight: 600; 
+  word-wrap: break-word
+}
+.JoinOurMailingListToGetOurNews{
+  width: 333px; 
+  height: 27px; 
+  color: white; 
+  font-size: 18px; 
+  font-family: Inter; 
+  font-weight: 400; 
+  line-height: 39.63px; 
+  word-wrap: break-word
+}
+.MailBox{
+  width: 407px; 
+  justify-content: flex-start; 
+  align-items: center; 
+  display: inline-flex
+}
+.MessageBox{
+  width: 264px; 
+  height: 65px; 
+  position: relative
+}
+.Background{
+  width: 264px; 
+  height: 65px; 
+  left: 0px; 
+  top: 0px; 
+  position: absolute; 
+  background: white
+}
+.YourEmailAddress{
+  left: 27px; 
+  top: 22px; 
+  position: absolute; 
+  color: #37393F; 
+  font-size: 18px; 
+  font-family: Inter; 
+  font-weight: 400; 
+  word-wrap: break-word
+}
+.Button{
+  padding-top: 21px; 
+  padding-bottom: 22px; 
+  padding-left: 27px; 
+  padding-right: 27px; 
+  background: #6B77E5; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px; 
+  display: flex
+}
+.Subscribe44{
+  text-align: right; 
+  color: white; 
+  font-size: 18px; 
+  font-family: Inter; 
+  font-weight: 600; 
+  text-transform: capitalize; 
+  word-wrap: break-word
+}
+.Copyrights{
+  margin-left: 200px;
+  margin-bottom: 30px;
+  width: 100%; 
+  height: 100%; 
+  justify-content: flex-start; 
+  align-items: center; 
+  gap: 308px; 
+  display: inline-flex
+}
+.spunny{
+  color: white; 
+  font-size: 18px; 
+  font-family: Inter; 
+  font-weight: 400; 
+  line-height: 26.01px; 
+  word-wrap: break-word
+}
+.spunny2{
+  color: #40DDB6; 
+  font-size: 18px; 
+  font-family: Inter; 
+  font-weight: 400; 
+  line-height: 26.01px; 
+  word-wrap: break-word
+}
+.spunny3{
+  color: white; 
+  font-size: 18px; 
+  font-family: Inter; 
+  font-weight: 400; 
+  line-height: 26.01px; 
+  word-wrap: break-word
+}
+.spunny4{
+  color: #6B77E5; 
+  font-size: 18px; 
+  font-family: Inter; 
+  font-weight: 400; 
+  line-height: 26.01px; 
+  word-wrap: break-word
+}
+.spunny5{
+  color: white; 
+  font-size: 18px; 
+  font-family: Inter; 
+  font-weight: 400; 
+  line-height: 26.01px; 
+  word-wrap: break-word
+}
+.Follow{
+  height: 26px; 
+  position: relative
+}
+.SocialMedia{
+  width: 117.84px; 
+  height: 17.36px; 
+  left: 77px; 
+  top: 5px; 
+  position: absolute; 
+  justify-content: flex-end; 
+  align-items: center; 
+  gap: 16px; 
+  display: inline-flex
+}
+.Insta{
+  width: 17.09px; 
+  height: 16.46px; 
+  position: relative
+}
+.Vector1{
+  width: 17.09px;
+  height: 16.46px; 
+  left: 0px; 
+  top: 0px; 
+  position: absolute; 
+  background: white
+}
+.Vector2{
+  width: 9.97px; 
+  height: 9.60px; 
+  left: 4.27px; 
+  top: 2.74px; 
+  position: absolute; 
+  background: white
+}
+.Vector3{
+  width: 17.09px; 
+  height: 16.36px; 
+  background: white
+}
+.Vector4{
+  width: 18.31px; 
+  height: 14.65px; 
+  background: white
+}
+.Vector5{
+  width: 17.36px; 
+  height: 17.36px; 
+  background: white
+}
+.Follow2{
+  left: 0px; 
+  top: 0px; 
+  position: absolute; 
+  color: white; 
+  font-size: 18px; 
+  font-family: Inter; 
+  font-weight: 400; 
+  line-height: 26.01px; 
+  word-wrap: break-word
+}
